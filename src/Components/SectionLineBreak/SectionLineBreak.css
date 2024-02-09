@@ -1,0 +1,19 @@
+.section-line-break {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.section-line-hr {
+  width: 43%;
+  height: 4px;
+  background: #9d9d9d;
+  border-radius: 8px;
+  border: none;
+}
+
+.section-header {
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+}

@@ -1,0 +1,47 @@
+.services-section-container {
+  background: linear-gradient(to bottom, #e0e0e0, #e52528);
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.our-services-container {
+  display: flex;
+  flex-wrap: wrap;
+  transition-duration: 0.7s;
+}
+
+.service-container {
+  width: 44%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-header {
+  font-weight: 700;
+  font-size: 32px;
+  align-self: flex-start;
+}
+
+.service-image {
+  width: 450px;
+  height: 350px;
+  border-radius: 8px;
+}
+
+.right-arrow {
+  padding: 12px;
+  align-self: center;
+  margin-left: 16px;
+  border-radius: 28px;
+  background: white;
+
+  &:hover {
+    cursor: pointer;
+    background: #979696;
+    transition-duration: 0.7s;
+  }
+}

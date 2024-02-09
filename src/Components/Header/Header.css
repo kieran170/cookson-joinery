@@ -1,0 +1,14 @@
+.header-container {
+  min-height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(to top, #e0e0e0, #808080);
+}
+
+.header-options-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
